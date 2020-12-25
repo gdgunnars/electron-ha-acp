@@ -1,0 +1,45 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.notificationArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  height: 90%;
+  width: 90%;
+}
+
+.notificationArea .target{
+  height: 100%;
+  flex-grow: 1;
+  margin-left: 16px;
+  padding: 8px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #323232, #3c3c3c);
+  box-shadow: inset  8px 8px 16px #303030, 
+              inset -8px -8px 16px #404040;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  background-color: transparent;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #323232, #3c3c3c);
+  box-shadow:  8px 8px 16px #303030, 
+              -8px -8px 16px #404040;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: inset 8px 8px 16px #303030, 
+              inset -8px -8px 16px #404040;
+}

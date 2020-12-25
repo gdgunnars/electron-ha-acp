@@ -1,0 +1,28 @@
+.wrapper {
+  /* background-color: #383735; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0 8px;
+  height: 32px;
+  margin: 8px;
+  font-size: 34px;
+
+  color: rgb(78, 196, 242);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #323232, #3c3b3c);
+  box-shadow: inset 8px 8px 16px #302f30, 
+              inset -8px -8px 16px #403f40;
+}
+
+.input div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

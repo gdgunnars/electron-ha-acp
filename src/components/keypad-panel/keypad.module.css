@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 8px;
+  display: grid;
+  row-gap: 24px;
+  column-gap: 24px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 35px;
+  padding: 8px;
+  font: inherit;
+  color: rgb(78, 196, 242);
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #323232, #3c3c3c);
+  box-shadow:  8px 8px 16px #303030, 
+              -8px -8px 16px #404040;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: inset 8px 8px 16px #303030, 
+              inset -8px -8px 16px #404040;
+}
+
+/* .button:focus {
+  outline: none;
+} */
